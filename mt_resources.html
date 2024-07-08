@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mike's Cyber Resources</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            position: relative;
+            background-color: black;
+            color: green;
+        }
+        h1 {
+            color: green;
+            cursor: pointer;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            display: none; /* Hide the list initially */
+        }
+        li {
+            margin: 10px 0;
+        }
+        a {
+            text-decoration: none;
+            color: red;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .gif {
+            position: absolute;
+            top: 10px;
+            right: 0px;
+            width: 650px; /* Adjust the width as needed */
+        }
+    </style>
+</head>
+<body>
+    <h1 id="folderName">Email Tools</h1>
+    <ul id="urlList">
+        <li><a href="https://mxtoolbox.com/EmailHeaders.aspx" target="_blank">MX Toolbox</a></li>
+        <li><a href="https://www.browserling.com/tools/extract-urls" target="_blank">Browserling</a></li>
+
+        <!-- Add more URLs as needed -->
+    </ul>
+    <iframe src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTVzN2d0eWt3YzY5cHoyNzNsZDc1d3owbjJrZTczOTZ0MWxzMDFtaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3o7qDDII8SN0JYnpjq/giphy.gif" width="800" height="600" frameBorder="0" class="gif" allowFullScreen></iframe>
+    <script>
+        document.getElementById('folderName').addEventListener('click', function() {
+            var urlList = document.getElementById('urlList');
+            if (urlList.style.display === 'none') {
+                urlList.style.display = 'block';
+            } else {
+                urlList.style.display = 'none';
+            }
+        });
+    </script>
+
+    <h1 id="folderName1">Web Tools</h1>
+    <ul id="urlList1">
+        <li><a href="https://urlscan.io/" target="_blank">URL Scan IO</a></li>
+        <li><a href="https://observatory.mozilla.org/" target="_blank">Mozilla Observer</a></li>
+	<li><a href="https://www.ipvoid.com/" target="_blank">IP Void</a></li>
+	<li><a href="https://cheatsheetseries.owasp.org/IndexTopTen.html" target="_blank">OWASP Top Ten</a></li>
+
+        <!-- Add more URLs as needed -->
+    </ul>
+    <script>
+        document.getElementById('folderName1').addEventListener('click', function() {
+            var urlList1 = document.getElementById('urlList1');
+            if (urlList1.style.display === 'none') {
+                urlList1.style.display = 'block';
+            } else {
+                urlList1.style.display = 'none';
+            }
+        });
+    </script>
+    
+    <h1 id="folderName2">Penetration Testing Tools</h1>
+    <ul id="urlList2">
+        <li><a href="https://google-gruyere.appspot.com/" target="_blank">Google- Gruyere</a></li>
+        <li><a href="https://www.ssllabs.com/" target="_blank">SSL Labs</a></li>
+	<li><a href="https://highon.coffee/blog/penetration-testing-tools-cheat-sheet/" target="_blank">High on Coffee Pen Testing Tools Cheat Sheet</a></li>
+	<li><a href="https://pentest-standard.readthedocs.io/en/latest/tree.html" target="_blank">PTES Technical Guidelines</a></li>
+
+        <!-- Add more URLs as needed -->
+    </ul>
+    <script>
+        document.getElementById('folderName2').addEventListener('click', function() {
+            var urlList2 = document.getElementById('urlList2');
+            if (urlList2.style.display === 'none') {
+                urlList2.style.display = 'block';
+            } else {
+                urlList2.style.display = 'none';
+            }
+        });
+    </script>
+    <h1 id="folderName3">Cyber Training Tools</h1>
+    <ul id="urlList3">
+        <li><a href="https://www.sans.org/mlp/holiday-hack-challenge-2023/" target="_blank">SANS Holiday Hack</a></li>
+        <li><a href="https://www.willhackforsushi.com/?page_id=126" target="_blank">Will Hack For Sushi</a></li>
+	<li><a href="https://facilitycyber.labworks.org/cybersecurityTraining" target="_blank">Setup Cybersecurity Training Program</a></li>
+	<li><a href="https://www.cdse.edu/Training/Toolkits/Cybersecurity-Toolkit/" target="_blank">Cybersecurity Toolkit by Defense Counterintelligence and Security Agency</a></li>
+	<li><a href="https://www.javatpoint.com/" target="_blank">Free Study Tool for Almost Anything</a></li>
+        <li><a href="https://fedvte.usalearning.gov/public_fedvte.php" target="_blank">Fed Virtual Training Environment (Great for ICS and Critical Infrastructure)</a></li>
+        <li><a href="https://ics-training.inl.gov/" target="_blank">CISA Virtual Learning Portal</a></li>
+                
+	
+	<!-- Add more URLs as needed -->
+    </ul>
+    <script>
+        document.getElementById('folderName3').addEventListener('click', function() {
+            var urlList3 = document.getElementById('urlList3');
+            if (urlList3.style.display === 'none') {
+                urlList3.style.display = 'block';
+            } else {
+                urlList3.style.display = 'none';
+            }
+        });
+    </script>
+
+    <h1 id="folderName4">Other Useful Tools</h1>
+    <ul id="urlList4">
+        <li><a href="https://security.cms.gov/" target="_blank">Cyber Geek</a></li>
+        <li><a href="https://www.willhackforsushi.com/?page_id=126" target="_blank">Will Hack For Sushi</a></li>
+        <li><a href="https://start.me/p/rx6Qj8/nixintel-s-osint-resource-list" target="_blank">NIX OSINT Tool</a></li>
+	<li><a href="https://osintframework.com/" target="_blank">OSINT Framework</a></li>
+        <li><a href="https://www.first.org/cvss/calculator/4.0" target="_blank">CVSS Scoring Calculator</a></li>
+             
+	<!-- Add more URLs as needed -->
+    </ul>
+    <script>
+        document.getElementById('folderName4').addEventListener('click', function() {
+            var urlList4 = document.getElementById('urlList4');
+            if (urlList4.style.display === 'none') {
+                urlList4.style.display = 'block';
+            } else {
+                urlList4.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+
+</html>
